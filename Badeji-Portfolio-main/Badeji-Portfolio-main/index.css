@@ -1,0 +1,361 @@
+body{
+   font-family: Roboto; 
+   margin: 0;
+   overflow-x: hidden;
+}
+
+/* <---Header---> */
+.Header{
+    display: flex;
+    border-radius: 20px; 
+    background-color: #FD853A;
+    color: black;
+    font-size: 10px;
+    justify-content: space-between;
+    margin-top: 5px;
+    position: sticky;
+    top: 0;
+}
+
+/* <---First Column---> */
+
+.Profile{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyProfile1{
+    display: flex;
+    flex-direction: column;
+}
+
+.MyProfile1 img{
+    width: 180px;
+    height: 200px;
+}
+
+
+h2{
+    margin-left: 30px;
+}
+ 
+ul{
+  display: flex;
+  
+}
+ 
+li{
+   list-style: none;
+   margin-right: 1cm;
+   font-size: 15px;
+   
+}
+
+span{
+    color: #FD853A;
+}
+
+#btn{
+    border: none;
+    border-radius: 20px;
+    background-color: #FD853A;
+}
+
+#Name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#Story{
+    font-size: 15px;
+}
+
+#Service{
+    color: #F2F4F7;
+}
+
+/* <------> */
+#Head{
+    color: #1D2939;
+}
+
+
+#grid1, #grid2, #grid3{
+    width: 25%;
+    box-shadow: 1px 2px 1px #FD853A ;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Expreince{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.Portfolio{
+    background-color: #F2F4F7;
+    width: 100%;
+    height: 65vh;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 5em;
+}
+
+.Imagee{
+    display: flex;
+    width: 1000px;
+    height: 280px; 
+    margin: 20px;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+#Artificier{
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px 2px 1px #FD853A;
+    background-image: url(./Assets/Screenshot\ 2024-02-26\ 142557.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    
+}
+
+#ToDo{
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px 2px 1px #FD853A;
+    background-image: url(./Assets/Screenshot\ 2024-02-28\ 085838.png);
+    background-size: contain;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+#Art{
+    color: #FD853A;
+    margin-top: 290px;
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #FD853A;
+}
+
+#Portal{
+    border-radius: 20px;
+    background-color: white;
+    height: 400px;
+    box-shadow: 1px 2px 1px #FD853A;
+}
+
+button{
+    border: none;
+    background-color: #FD853A;
+    border-radius: 20px;
+    color: white;
+    height: 5vh;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials{
+    color:  #FD853A;
+}
+
+.Contact{
+    background-color: white;
+    box-shadow: 1px 2px 1px #FD853A;
+    border-radius: 20px;
+    width: 200px;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 750px;
+}
+
+
+
+#Submit{
+    border-radius: 20px;
+    width: 50px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: red;
+    }
+    #picture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #grid1, #grid2, #grid3 {
+        width: 85%; 
+        padding: 1em;
+        /* margin: 10px 0;  */
+    }
+
+    .mid {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        
+    }
+
+    .Expreince{
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .Profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #Name {
+        margin-right: 0; 
+    }
+    
+    #Art {
+        margin-top: 10px; /* Adjust margin-top */
+        margin-left: 0; /* Remove left margin */
+        font-size: 20px; /* Reduce font size */
+        text-align: center; /* Center-align text */
+        width: 50%;
+        height: 70%;
+    }
+
+    .portfolio {
+            width: 100%;
+            height: 80%; 
+            border-radius: 20px;
+            margin-top: 3em;
+
+        }
+    
+        .Imagee {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            gap: 20px;
+            width: 100%; /* Adjust width to fit the screen */
+            height:50%;
+        }
+
+    
+         #Artificier{
+            width: 100%;
+            height: 50%;
+        }
+
+        #Art {
+            margin-top: 130px; 
+            text-align: center; 
+        } 
+        
+        #Arts {
+            margin-top: 150px; 
+            text-align: center; 
+        } 
+
+
+        
+
+        #Artificier{
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 1px 2px 1px #FD853A;
+            background-image: url(./Assets/Screenshot\ 2024-02-26\ 142557.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 300px;
+            
+        }
+        
+        #ToDo{
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 1px 2px 1px #FD853A;
+            background-image: url(./Assets/Screenshot\ 2024-02-28\ 085838.png);
+            background-size: contain;
+            width: 300px;
+            margin-top: 5em;
+            background-repeat: no-repeat;
+        }
+
+        #Head{
+            align-items: center;
+            text-align: center;
+        }
+
+        .Contact{
+            background-color: blue;
+            box-shadow: 1px 2px 1px #FD853A;
+            border-radius: 20px;
+            width: 200px;
+            height: 290px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 750px;
+            margin-top: 10em;
+        }
+        
+        
+    
+        
+}
+    
+
