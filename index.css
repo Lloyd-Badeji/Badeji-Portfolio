@@ -117,13 +117,13 @@ span{
 .Portfolio{
     background-color: #F2F4F7;
     width: 100%;
-    height: 50vh;
+    height: 65vh;
     border-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: -20px;
+    margin-top: 5em;
 }
 
 .Imagee{
@@ -140,8 +140,10 @@ span{
     background-color: white;
     box-shadow: 1px 2px 1px #FD853A;
     background-image: url(./Assets/Screenshot\ 2024-02-26\ 142557.png);
+    background-repeat: no-repeat;
     background-size: contain;
     width: 300px;
+    
 }
 
 #ToDo{
@@ -151,6 +153,7 @@ span{
     background-image: url(./Assets/Screenshot\ 2024-02-28\ 085838.png);
     background-size: contain;
     width: 300px;
+    background-repeat: no-repeat;
 }
 
 #Art{
@@ -168,6 +171,7 @@ h2 a{
 #Portal{
     border-radius: 20px;
     background-color: white;
+    height: 400px;
     box-shadow: 1px 2px 1px #FD853A;
 }
 
@@ -210,6 +214,148 @@ button a{
     margin: 0px;
 }
 
-@media only screen and (max-width:430px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: red;
+    }
+    #picture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #grid1, #grid2, #grid3 {
+        width: 85%; 
+        padding: 1em;
+        /* margin: 10px 0;  */
+    }
+
+    .mid {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        
+    }
+
+    .Expreince{
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .Profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #Name {
+        margin-right: 0; 
+    }
     
+    #Art {
+        margin-top: 10px; /* Adjust margin-top */
+        margin-left: 0; /* Remove left margin */
+        font-size: 20px; /* Reduce font size */
+        text-align: center; /* Center-align text */
+        width: 50%;
+        height: 70%;
+    }
+
+    .portfolio {
+            width: 100%;
+            height: 80%; 
+            border-radius: 20px;
+            margin-top: 3em;
+
+        }
+    
+        .Imagee {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            gap: 20px;
+            width: 100%; /* Adjust width to fit the screen */
+            height:50%;
+        }
+
+    
+         #Artificier{
+            width: 100%;
+            height: 50%;
+        }
+
+        #Art {
+            margin-top: 130px; 
+            text-align: center; 
+        } 
+        
+        #Arts {
+            margin-top: 150px; 
+            text-align: center; 
+        } 
+
+
+        
+
+        #Artificier{
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 1px 2px 1px #FD853A;
+            background-image: url(./Assets/Screenshot\ 2024-02-26\ 142557.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 300px;
+            
+        }
+        
+        #ToDo{
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 1px 2px 1px #FD853A;
+            background-image: url(./Assets/Screenshot\ 2024-02-28\ 085838.png);
+            background-size: contain;
+            width: 300px;
+            margin-top: 5em;
+            background-repeat: no-repeat;
+        }
+
+        #Head{
+            align-items: center;
+            text-align: center;
+        }
+
+        .Contact{
+            background-color: blue;
+            box-shadow: 1px 2px 1px #FD853A;
+            border-radius: 20px;
+            width: 200px;
+            height: 290px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 750px;
+            margin-top: 10em;
+        }
+        
+        
+    
+        
 }
+    
+
