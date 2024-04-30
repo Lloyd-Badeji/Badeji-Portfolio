@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,17 +18,21 @@
     <!-- <--Header-->
     <div class="Header">
         <h2>Adetomisoye Badeji</h2>
-        <ul>
-            <a>
+        <div class="mobile-menu">
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu-items">
                 <li>Home</li>
-            </a>
-            <li>Services</li>
-            <li>Works</li>
-            <li>Contact</li>
-        </ul>
-
-        
+                <li>Experience</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+            </ul>
+        </div>
     </div>
+    
 
     <!-- <---Personal Profile---->
     <div class="Profile">
@@ -38,9 +43,10 @@
         </div>
 
         <div class="Storymain">
-            <h5 id="Story">An adept storyteller with an <br>
-                inbulit skills of copywriting <br>
-                alongside Technical Writing
+            <h5 id="Story">Inexperienced software engineer with strong storytelling, <br>
+                marketing, and public relations skills, <br>
+                alongside adept technical writing abilities.
+                
             </h5>
             <button><a href="Assets/Adetomisoye Badeji_CV.pdf">Download CV</a></button>
         </div>
@@ -50,7 +56,7 @@
 
     <!-- <----My Service--->
     <div class="Expreince">
-        <h2 id="Service">My <span>Service</span></h2>
+        <h2 id="Service">My <span>Experience</span></h2>
         <div class="mid">
             <div id="grid1">
                 <h3>Sail: Graduate Trainee</h3>
@@ -97,7 +103,7 @@
             </div> </a>
 
             <div id="ToDo">
-                <h2 id="Arts"></h2>
+                <h2 id="Arts">To-do List</h2>
           </div>
      </div>
 
@@ -109,7 +115,7 @@
     <div class="Contact">
         <div class="cd">
         <div class="CC">
-            <h2 id="Head">Contact <span>Me</span></h2>
+            <h2 id="Headd">Contact <span>Me</span></h2>
             <input type="text" placeholder="Name"> <br> <br>
             <input type="text" placeholder="Email Address"> <br> <br>
             <input type="text" placeholder="Your message" id="message"> <br> <br>

@@ -17,6 +17,34 @@ body{
     top: 0;
 }
 
+/* Style for the hamburger icon */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+/* Style for the menu items */
+.menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
 /* <---First Column---> */
 
 .Profile{
@@ -242,6 +270,16 @@ button a{
     .Header{
         width: 100%;
     }
+
+    .menu-items {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
     
     #picture{
         display: flex;
@@ -280,10 +318,10 @@ button a{
     }
     
     #Art {
-        margin-top: 10px; /* Adjust margin-top */
-        margin-left: 0; /* Remove left margin */
-        font-size: 20px; /* Reduce font size */
-        text-align: center; /* Center-align text */
+        margin-top: 10px; 
+        margin-left: 0; 
+        font-size: 20px; 
+        text-align: center;
         width: 50%;
         height: 70%;
     }
@@ -301,7 +339,7 @@ button a{
             flex-direction: column; 
             align-items: center; 
             gap: 20px;
-            width: 100%; /* Adjust width to fit the screen */
+            width: 100%; 
             height:50%;
         }
 
@@ -336,7 +374,7 @@ button a{
             background-image: url(./Assets/Screenshot\ 2024-02-26\ 142557.png);
             background-repeat: no-repeat;
             background-size: contain;
-            width: 100%;
+            width: 300px;
             
         }
         
@@ -353,6 +391,8 @@ button a{
         }
 
         #Head{
+            /* color: #F2F4F7; */
+            text-align: center;
         }
 
         .Contact{
